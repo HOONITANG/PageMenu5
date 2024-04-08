@@ -7,11 +7,13 @@
 //
 
 import UIKit
+import PageMenu5
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        PageMenu5.sayHello(with: "굳")
         // Do any additional setup after loading the view, typically from a nib.
     }
 

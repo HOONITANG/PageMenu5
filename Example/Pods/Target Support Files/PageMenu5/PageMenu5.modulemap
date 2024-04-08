@@ -1,0 +1,6 @@
+framework module PageMenu5 {
+  umbrella header "PageMenu5-umbrella.h"
+
+  export *
+  module * { export * }
+}

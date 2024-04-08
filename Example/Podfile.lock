@@ -1,0 +1,16 @@
+PODS:
+  - PageMenu5 (0.1.0)
+
+DEPENDENCIES:
+  - PageMenu5 (from `../`)
+
+EXTERNAL SOURCES:
+  PageMenu5:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PageMenu5: 60c65fc5d5fbe4e4b88c17f03b042378e3120571
+
+PODFILE CHECKSUM: 67775974f2da45777a6eb3004717edd891d7a8c1
+
+COCOAPODS: 1.14.3

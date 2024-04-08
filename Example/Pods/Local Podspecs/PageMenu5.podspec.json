@@ -1,0 +1,22 @@
+{
+  "name": "PageMenu5",
+  "version": "0.1.0",
+  "summary": "A short description of PageMenu5.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/김태훈/PageMenu5",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "김태훈": "taehoon.data@kggroup.co.kr"
+  },
+  "source": {
+    "git": "https://github.com/김태훈/PageMenu5.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "PageMenu5/Classes/**/*"
+}
