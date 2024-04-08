@@ -27,9 +27,9 @@
 		2C0B3ABF2BC3B893008A9E80 /* CAPSPageMenu+UIGestureRecognizerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0B3AAF2BC3B893008A9E80 /* CAPSPageMenu+UIGestureRecognizerDelegate.swift */; };
 		2C0B3AC02BC3B893008A9E80 /* CAPSPageMenu+UIGestureRecognizerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0B3AAF2BC3B893008A9E80 /* CAPSPageMenu+UIGestureRecognizerDelegate.swift */; };
 		2C0B3AC12BC3B893008A9E80 /* CAPSPageMenu+UIGestureRecognizerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0B3AAF2BC3B893008A9E80 /* CAPSPageMenu+UIGestureRecognizerDelegate.swift */; };
-		2C8D93D32BC3ACA2001BF5B7 /* MenuItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8D93CC2BC3ACA2001BF5B7 /* MenuItemView.swift */; };
-		2C8D93E42BC3ACC2001BF5B7 /* MenuItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8D93CC2BC3ACA2001BF5B7 /* MenuItemView.swift */; };
-		2C8D93E52BC3ACC2001BF5B7 /* MenuItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8D93CC2BC3ACA2001BF5B7 /* MenuItemView.swift */; };
+		2C0B3AC32BC3B99A008A9E80 /* MenuItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0B3AC22BC3B99A008A9E80 /* MenuItemView.swift */; };
+		2C0B3AC42BC3B9A5008A9E80 /* MenuItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0B3AC22BC3B99A008A9E80 /* MenuItemView.swift */; };
+		2C0B3AC52BC3B9A5008A9E80 /* MenuItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0B3AC22BC3B99A008A9E80 /* MenuItemView.swift */; };
 		3595B5C9CF71E874F1A3810E1A476A15 /* Pods-PageMenu5_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 617D18CFA93194CE062E590A01C0980A /* Pods-PageMenu5_Tests-dummy.m */; };
 		4BD0F7850BBB00F36BC7CA59B2261C43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		4CF47CE8501DDFABABF9FA0055F44E4E /* PageMenu5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F5A9B2285F3D9045C63315D2A8BDAC /* PageMenu5.swift */; };
@@ -69,7 +69,7 @@
 		2C0B3AAD2BC3B893008A9E80 /* CAPSPageMenuConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CAPSPageMenuConfiguration.swift; path = PageMenu5/Classes/CAPSPageMenuConfiguration.swift; sourceTree = "<group>"; };
 		2C0B3AAE2BC3B893008A9E80 /* CAPSPageMenu+UIScrollViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CAPSPageMenu+UIScrollViewDelegate.swift"; path = "PageMenu5/Classes/CAPSPageMenu+UIScrollViewDelegate.swift"; sourceTree = "<group>"; };
 		2C0B3AAF2BC3B893008A9E80 /* CAPSPageMenu+UIGestureRecognizerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CAPSPageMenu+UIGestureRecognizerDelegate.swift"; path = "PageMenu5/Classes/CAPSPageMenu+UIGestureRecognizerDelegate.swift"; sourceTree = "<group>"; };
-		2C8D93CC2BC3ACA2001BF5B7 /* MenuItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItemView.swift; sourceTree = "<group>"; };
+		2C0B3AC22BC3B99A008A9E80 /* MenuItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuItemView.swift; path = PageMenu5/Classes/MenuItemView.swift; sourceTree = "<group>"; };
 		39A8DCE82187D83924F7C8362AF0AA10 /* PageMenu5-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PageMenu5-Info.plist"; sourceTree = "<group>"; };
 		461389055231FCB52C0AD2323850FA01 /* PageMenu5-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PageMenu5-umbrella.h"; sourceTree = "<group>"; };
 		4AB36BC64FF1DCE7CEAE6AA00F6274F3 /* Pods_PageMenu5_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PageMenu5_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -146,7 +146,7 @@
 				2C0B3AAA2BC3B893008A9E80 /* CAPSPageMenu+Options.swift */,
 				2C0B3AAC2BC3B893008A9E80 /* CAPSPageMenu+UIConfiguration.swift */,
 				2C0B3AAD2BC3B893008A9E80 /* CAPSPageMenuConfiguration.swift */,
-				2C8D93CC2BC3ACA2001BF5B7 /* MenuItemView.swift */,
+				2C0B3AC22BC3B99A008A9E80 /* MenuItemView.swift */,
 				04F5A9B2285F3D9045C63315D2A8BDAC /* PageMenu5.swift */,
 				C5EDB2966D53840D5829A96992D6AEF8 /* Pod */,
 				FFEF9036A784FD91233A7D0E9044988F /* Support Files */,
@@ -406,10 +406,10 @@
 				2C0B3AB92BC3B893008A9E80 /* CAPSPageMenuConfiguration.swift in Sources */,
 				4CF47CE8501DDFABABF9FA0055F44E4E /* PageMenu5.swift in Sources */,
 				2C0B3AB32BC3B893008A9E80 /* CAPSPageMenu.swift in Sources */,
+				2C0B3AC32BC3B99A008A9E80 /* MenuItemView.swift in Sources */,
 				2C0B3AB62BC3B893008A9E80 /* CAPSPageMenu+UIConfiguration.swift in Sources */,
 				2C0B3ABC2BC3B893008A9E80 /* CAPSPageMenu+UIScrollViewDelegate.swift in Sources */,
 				2C0B3AB02BC3B893008A9E80 /* CAPSPageMenu+Options.swift in Sources */,
-				2C8D93D32BC3ACA2001BF5B7 /* MenuItemView.swift in Sources */,
 				2C0B3ABF2BC3B893008A9E80 /* CAPSPageMenu+UIGestureRecognizerDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,7 +422,7 @@
 				2C0B3AB52BC3B893008A9E80 /* CAPSPageMenu.swift in Sources */,
 				3595B5C9CF71E874F1A3810E1A476A15 /* Pods-PageMenu5_Tests-dummy.m in Sources */,
 				2C0B3AB82BC3B893008A9E80 /* CAPSPageMenu+UIConfiguration.swift in Sources */,
-				2C8D93E42BC3ACC2001BF5B7 /* MenuItemView.swift in Sources */,
+				2C0B3AC52BC3B9A5008A9E80 /* MenuItemView.swift in Sources */,
 				2C0B3AB22BC3B893008A9E80 /* CAPSPageMenu+Options.swift in Sources */,
 				2C0B3AC12BC3B893008A9E80 /* CAPSPageMenu+UIGestureRecognizerDelegate.swift in Sources */,
 				2C0B3ABB2BC3B893008A9E80 /* CAPSPageMenuConfiguration.swift in Sources */,
@@ -437,7 +437,7 @@
 				2C0B3AB42BC3B893008A9E80 /* CAPSPageMenu.swift in Sources */,
 				EAE1C31F82D4B92E6905AFDAD4BF523A /* Pods-PageMenu5_Example-dummy.m in Sources */,
 				2C0B3AB72BC3B893008A9E80 /* CAPSPageMenu+UIConfiguration.swift in Sources */,
-				2C8D93E52BC3ACC2001BF5B7 /* MenuItemView.swift in Sources */,
+				2C0B3AC42BC3B9A5008A9E80 /* MenuItemView.swift in Sources */,
 				2C0B3AB12BC3B893008A9E80 /* CAPSPageMenu+Options.swift in Sources */,
 				2C0B3AC02BC3B893008A9E80 /* CAPSPageMenu+UIGestureRecognizerDelegate.swift in Sources */,
 				2C0B3ABA2BC3B893008A9E80 /* CAPSPageMenuConfiguration.swift in Sources */,
