@@ -22,7 +22,7 @@ pod 'PageMenu5'
 
 ## Author
 
-김태훈, taehoon.data@kggroup.co.kr
+김태훈, taehoon.data@gmail.com
 
 ## License
 
