@@ -9,6 +9,27 @@
 /* Begin PBXBuildFile section */
 		02EC9937EDC75A8F206955EC693A689B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		15C1C160C6EF707A51A2F180AA554AAB /* PageMenu5-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E9AD519E8172289E258B1952FDE4345B /* PageMenu5-dummy.m */; };
+		2C8D93D12BC3ACA2001BF5B7 /* CAPSPageMenuConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8D93CA2BC3ACA2001BF5B7 /* CAPSPageMenuConfiguration.swift */; };
+		2C8D93D22BC3ACA2001BF5B7 /* CAPSPageMenu+UIScrollViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8D93CB2BC3ACA2001BF5B7 /* CAPSPageMenu+UIScrollViewDelegate.swift */; };
+		2C8D93D32BC3ACA2001BF5B7 /* MenuItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8D93CC2BC3ACA2001BF5B7 /* MenuItemView.swift */; };
+		2C8D93D42BC3ACA2001BF5B7 /* CAPSPageMenu+UIConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8D93CD2BC3ACA2001BF5B7 /* CAPSPageMenu+UIConfiguration.swift */; };
+		2C8D93D52BC3ACA2001BF5B7 /* CAPSPageMenu+UIGestureRecognizerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8D93CE2BC3ACA2001BF5B7 /* CAPSPageMenu+UIGestureRecognizerDelegate.swift */; };
+		2C8D93D62BC3ACA2001BF5B7 /* CAPSPageMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8D93CF2BC3ACA2001BF5B7 /* CAPSPageMenu.swift */; };
+		2C8D93D72BC3ACA2001BF5B7 /* CAPSPageMenu+Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8D93D02BC3ACA2001BF5B7 /* CAPSPageMenu+Options.swift */; };
+		2C8D93D82BC3ACB0001BF5B7 /* CAPSPageMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8D93CF2BC3ACA2001BF5B7 /* CAPSPageMenu.swift */; };
+		2C8D93D92BC3ACB1001BF5B7 /* CAPSPageMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8D93CF2BC3ACA2001BF5B7 /* CAPSPageMenu.swift */; };
+		2C8D93DA2BC3ACB3001BF5B7 /* CAPSPageMenu+Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8D93D02BC3ACA2001BF5B7 /* CAPSPageMenu+Options.swift */; };
+		2C8D93DB2BC3ACB4001BF5B7 /* CAPSPageMenu+Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8D93D02BC3ACA2001BF5B7 /* CAPSPageMenu+Options.swift */; };
+		2C8D93DC2BC3ACB7001BF5B7 /* CAPSPageMenu+UIConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8D93CD2BC3ACA2001BF5B7 /* CAPSPageMenu+UIConfiguration.swift */; };
+		2C8D93DD2BC3ACB7001BF5B7 /* CAPSPageMenu+UIConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8D93CD2BC3ACA2001BF5B7 /* CAPSPageMenu+UIConfiguration.swift */; };
+		2C8D93DE2BC3ACBB001BF5B7 /* CAPSPageMenu+UIGestureRecognizerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8D93CE2BC3ACA2001BF5B7 /* CAPSPageMenu+UIGestureRecognizerDelegate.swift */; };
+		2C8D93DF2BC3ACBB001BF5B7 /* CAPSPageMenu+UIGestureRecognizerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8D93CE2BC3ACA2001BF5B7 /* CAPSPageMenu+UIGestureRecognizerDelegate.swift */; };
+		2C8D93E02BC3ACBD001BF5B7 /* CAPSPageMenu+UIScrollViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8D93CB2BC3ACA2001BF5B7 /* CAPSPageMenu+UIScrollViewDelegate.swift */; };
+		2C8D93E12BC3ACBD001BF5B7 /* CAPSPageMenu+UIScrollViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8D93CB2BC3ACA2001BF5B7 /* CAPSPageMenu+UIScrollViewDelegate.swift */; };
+		2C8D93E22BC3ACBF001BF5B7 /* CAPSPageMenuConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8D93CA2BC3ACA2001BF5B7 /* CAPSPageMenuConfiguration.swift */; };
+		2C8D93E32BC3ACBF001BF5B7 /* CAPSPageMenuConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8D93CA2BC3ACA2001BF5B7 /* CAPSPageMenuConfiguration.swift */; };
+		2C8D93E42BC3ACC2001BF5B7 /* MenuItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8D93CC2BC3ACA2001BF5B7 /* MenuItemView.swift */; };
+		2C8D93E52BC3ACC2001BF5B7 /* MenuItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8D93CC2BC3ACA2001BF5B7 /* MenuItemView.swift */; };
 		3595B5C9CF71E874F1A3810E1A476A15 /* Pods-PageMenu5_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 617D18CFA93194CE062E590A01C0980A /* Pods-PageMenu5_Tests-dummy.m */; };
 		4BD0F7850BBB00F36BC7CA59B2261C43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		4CF47CE8501DDFABABF9FA0055F44E4E /* PageMenu5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F5A9B2285F3D9045C63315D2A8BDAC /* PageMenu5.swift */; };
@@ -41,10 +62,17 @@
 		00F352251A86EABC626D3A2D0C559BAF /* Pods-PageMenu5_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PageMenu5_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		04F5A9B2285F3D9045C63315D2A8BDAC /* PageMenu5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PageMenu5.swift; path = PageMenu5/Classes/PageMenu5.swift; sourceTree = "<group>"; };
 		12CF14436AFAF82E6B1C3F1072F796DE /* Pods-PageMenu5_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PageMenu5_Tests-umbrella.h"; sourceTree = "<group>"; };
-		221EA03F55937285BF29E5D66AB41794 /* PageMenu5 */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PageMenu5; path = PageMenu5.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		221EA03F55937285BF29E5D66AB41794 /* PageMenu5.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PageMenu5.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C8D93CA2BC3ACA2001BF5B7 /* CAPSPageMenuConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAPSPageMenuConfiguration.swift; sourceTree = "<group>"; };
+		2C8D93CB2BC3ACA2001BF5B7 /* CAPSPageMenu+UIScrollViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CAPSPageMenu+UIScrollViewDelegate.swift"; sourceTree = "<group>"; };
+		2C8D93CC2BC3ACA2001BF5B7 /* MenuItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItemView.swift; sourceTree = "<group>"; };
+		2C8D93CD2BC3ACA2001BF5B7 /* CAPSPageMenu+UIConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CAPSPageMenu+UIConfiguration.swift"; sourceTree = "<group>"; };
+		2C8D93CE2BC3ACA2001BF5B7 /* CAPSPageMenu+UIGestureRecognizerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CAPSPageMenu+UIGestureRecognizerDelegate.swift"; sourceTree = "<group>"; };
+		2C8D93CF2BC3ACA2001BF5B7 /* CAPSPageMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAPSPageMenu.swift; sourceTree = "<group>"; };
+		2C8D93D02BC3ACA2001BF5B7 /* CAPSPageMenu+Options.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CAPSPageMenu+Options.swift"; sourceTree = "<group>"; };
 		39A8DCE82187D83924F7C8362AF0AA10 /* PageMenu5-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PageMenu5-Info.plist"; sourceTree = "<group>"; };
 		461389055231FCB52C0AD2323850FA01 /* PageMenu5-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PageMenu5-umbrella.h"; sourceTree = "<group>"; };
-		4AB36BC64FF1DCE7CEAE6AA00F6274F3 /* Pods-PageMenu5_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PageMenu5_Example"; path = Pods_PageMenu5_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AB36BC64FF1DCE7CEAE6AA00F6274F3 /* Pods_PageMenu5_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PageMenu5_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F65BDCC1C551A6EC9585D8CE584996F /* Pods-PageMenu5_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PageMenu5_Tests-Info.plist"; sourceTree = "<group>"; };
 		55BA05BC2F1BAECF99214C402551CFE7 /* Pods-PageMenu5_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PageMenu5_Example-umbrella.h"; sourceTree = "<group>"; };
 		617D18CFA93194CE062E590A01C0980A /* Pods-PageMenu5_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PageMenu5_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -58,7 +86,7 @@
 		80B7478D12DD0A6DFAD2893297D0402D /* PageMenu5.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = PageMenu5.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		99E401B8CCF82EB7E0BE36203FDDB000 /* PageMenu5-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PageMenu5-prefix.pch"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A243D4D854F19D2E17DE5727C238D5CC /* Pods-PageMenu5_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PageMenu5_Tests"; path = Pods_PageMenu5_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A243D4D854F19D2E17DE5727C238D5CC /* Pods_PageMenu5_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PageMenu5_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA5C137F074E1FA81A47A8A2F787743F /* Pods-PageMenu5_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PageMenu5_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BAB886009E7E97A5C29C1FF180BBC61C /* Pods-PageMenu5_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PageMenu5_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C07FCE85460BD6A3F13463585E478C2A /* Pods-PageMenu5_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PageMenu5_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -112,6 +140,13 @@
 		30B4DCE9CD13FD0658764FA93F1D8AD0 /* PageMenu5 */ = {
 			isa = PBXGroup;
 			children = (
+				2C8D93CF2BC3ACA2001BF5B7 /* CAPSPageMenu.swift */,
+				2C8D93D02BC3ACA2001BF5B7 /* CAPSPageMenu+Options.swift */,
+				2C8D93CD2BC3ACA2001BF5B7 /* CAPSPageMenu+UIConfiguration.swift */,
+				2C8D93CE2BC3ACA2001BF5B7 /* CAPSPageMenu+UIGestureRecognizerDelegate.swift */,
+				2C8D93CB2BC3ACA2001BF5B7 /* CAPSPageMenu+UIScrollViewDelegate.swift */,
+				2C8D93CA2BC3ACA2001BF5B7 /* CAPSPageMenuConfiguration.swift */,
+				2C8D93CC2BC3ACA2001BF5B7 /* MenuItemView.swift */,
 				04F5A9B2285F3D9045C63315D2A8BDAC /* PageMenu5.swift */,
 				C5EDB2966D53840D5829A96992D6AEF8 /* Pod */,
 				FFEF9036A784FD91233A7D0E9044988F /* Support Files */,
@@ -201,9 +236,9 @@
 		FB6C076000B9742D4250924F47289EEE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				221EA03F55937285BF29E5D66AB41794 /* PageMenu5 */,
-				4AB36BC64FF1DCE7CEAE6AA00F6274F3 /* Pods-PageMenu5_Example */,
-				A243D4D854F19D2E17DE5727C238D5CC /* Pods-PageMenu5_Tests */,
+				221EA03F55937285BF29E5D66AB41794 /* PageMenu5.framework */,
+				4AB36BC64FF1DCE7CEAE6AA00F6274F3 /* Pods_PageMenu5_Example.framework */,
+				A243D4D854F19D2E17DE5727C238D5CC /* Pods_PageMenu5_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -269,7 +304,7 @@
 			);
 			name = "Pods-PageMenu5_Example";
 			productName = Pods_PageMenu5_Example;
-			productReference = 4AB36BC64FF1DCE7CEAE6AA00F6274F3 /* Pods-PageMenu5_Example */;
+			productReference = 4AB36BC64FF1DCE7CEAE6AA00F6274F3 /* Pods_PageMenu5_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		B6A22FF0DC90EA1B17208D2CC5DD679E /* Pods-PageMenu5_Tests */ = {
@@ -288,7 +323,7 @@
 			);
 			name = "Pods-PageMenu5_Tests";
 			productName = Pods_PageMenu5_Tests;
-			productReference = A243D4D854F19D2E17DE5727C238D5CC /* Pods-PageMenu5_Tests */;
+			productReference = A243D4D854F19D2E17DE5727C238D5CC /* Pods_PageMenu5_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		EAA610E5EDE547C7D73B2A03F8D1A490 /* PageMenu5 */ = {
@@ -306,7 +341,7 @@
 			);
 			name = PageMenu5;
 			productName = PageMenu5;
-			productReference = 221EA03F55937285BF29E5D66AB41794 /* PageMenu5 */;
+			productReference = 221EA03F55937285BF29E5D66AB41794 /* PageMenu5.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -368,7 +403,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				15C1C160C6EF707A51A2F180AA554AAB /* PageMenu5-dummy.m in Sources */,
+				2C8D93D42BC3ACA2001BF5B7 /* CAPSPageMenu+UIConfiguration.swift in Sources */,
+				2C8D93D22BC3ACA2001BF5B7 /* CAPSPageMenu+UIScrollViewDelegate.swift in Sources */,
 				4CF47CE8501DDFABABF9FA0055F44E4E /* PageMenu5.swift in Sources */,
+				2C8D93D52BC3ACA2001BF5B7 /* CAPSPageMenu+UIGestureRecognizerDelegate.swift in Sources */,
+				2C8D93D72BC3ACA2001BF5B7 /* CAPSPageMenu+Options.swift in Sources */,
+				2C8D93D12BC3ACA2001BF5B7 /* CAPSPageMenuConfiguration.swift in Sources */,
+				2C8D93D62BC3ACA2001BF5B7 /* CAPSPageMenu.swift in Sources */,
+				2C8D93D32BC3ACA2001BF5B7 /* MenuItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,7 +418,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C8D93D92BC3ACB1001BF5B7 /* CAPSPageMenu.swift in Sources */,
+				2C8D93E22BC3ACBF001BF5B7 /* CAPSPageMenuConfiguration.swift in Sources */,
+				2C8D93E02BC3ACBD001BF5B7 /* CAPSPageMenu+UIScrollViewDelegate.swift in Sources */,
 				3595B5C9CF71E874F1A3810E1A476A15 /* Pods-PageMenu5_Tests-dummy.m in Sources */,
+				2C8D93E42BC3ACC2001BF5B7 /* MenuItemView.swift in Sources */,
+				2C8D93DA2BC3ACB3001BF5B7 /* CAPSPageMenu+Options.swift in Sources */,
+				2C8D93DC2BC3ACB7001BF5B7 /* CAPSPageMenu+UIConfiguration.swift in Sources */,
+				2C8D93DE2BC3ACBB001BF5B7 /* CAPSPageMenu+UIGestureRecognizerDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,7 +433,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C8D93D82BC3ACB0001BF5B7 /* CAPSPageMenu.swift in Sources */,
+				2C8D93E32BC3ACBF001BF5B7 /* CAPSPageMenuConfiguration.swift in Sources */,
+				2C8D93E12BC3ACBD001BF5B7 /* CAPSPageMenu+UIScrollViewDelegate.swift in Sources */,
 				EAE1C31F82D4B92E6905AFDAD4BF523A /* Pods-PageMenu5_Example-dummy.m in Sources */,
+				2C8D93E52BC3ACC2001BF5B7 /* MenuItemView.swift in Sources */,
+				2C8D93DB2BC3ACB4001BF5B7 /* CAPSPageMenu+Options.swift in Sources */,
+				2C8D93DD2BC3ACB7001BF5B7 /* CAPSPageMenu+UIConfiguration.swift in Sources */,
+				2C8D93DF2BC3ACBB001BF5B7 /* CAPSPageMenu+UIGestureRecognizerDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,7 +478,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-PageMenu5_Example/Pods-PageMenu5_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-PageMenu5_Example/Pods-PageMenu5_Example.modulemap";
@@ -456,7 +512,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-PageMenu5_Tests/Pods-PageMenu5_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-PageMenu5_Tests/Pods-PageMenu5_Tests.modulemap";
@@ -490,7 +546,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-PageMenu5_Example/Pods-PageMenu5_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-PageMenu5_Example/Pods-PageMenu5_Example.modulemap";
@@ -523,7 +579,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/PageMenu5/PageMenu5-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/PageMenu5/PageMenu5-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/PageMenu5/PageMenu5.modulemap";
 				PRODUCT_MODULE_NAME = PageMenu5;
@@ -531,7 +587,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -616,7 +672,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-PageMenu5_Tests/Pods-PageMenu5_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-PageMenu5_Tests/Pods-PageMenu5_Tests.modulemap";
@@ -649,7 +705,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/PageMenu5/PageMenu5-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/PageMenu5/PageMenu5-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/PageMenu5/PageMenu5.modulemap";
 				PRODUCT_MODULE_NAME = PageMenu5;
@@ -657,7 +713,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
