@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PageMenu5'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'PageMenu 라이브러리 Swift5 적용 버전입니다.'
 
 # This description is used to generate tags and improve search results.
