@@ -329,7 +329,7 @@ extension CAPSPageMenu {
      
      - parameter index: Index of the page to move to
      */
-    open func moveToPage(_ index: Int) {
+    open func moveToPage(_ index: Int, notifyDelegate: Bool = false) {
         if index >= 0 && index < controllerArray.count {
             // Update page if changed
             if index != currentPageIndex {
@@ -365,12 +365,13 @@ extension CAPSPageMenu {
                 self.controllerScrollView.setContentOffset(CGPoint(x: xOffset, y: self.controllerScrollView.contentOffset.y), animated: false)
             })
             
-            if tapTimer != nil {
-                tapTimer!.invalidate()
+            tapTimer?.invalidate()
+            
+            if notifyDelegate {
+                let timerInterval : TimeInterval = Double(configuration.scrollAnimationDurationOnMenuItemTap) * 0.001
+                tapTimer = Timer.scheduledTimer(timeInterval: timerInterval, target: self, selector: #selector(CAPSPageMenu.scrollViewDidEndTapScrollingAnimation), userInfo: nil, repeats: false)
             }
             
-            let timerInterval : TimeInterval = Double(configuration.scrollAnimationDurationOnMenuItemTap) * 0.001
-            tapTimer = Timer.scheduledTimer(timeInterval: timerInterval, target: self, selector: #selector(CAPSPageMenu.scrollViewDidEndTapScrollingAnimation), userInfo: nil, repeats: false)
         }
     }
     

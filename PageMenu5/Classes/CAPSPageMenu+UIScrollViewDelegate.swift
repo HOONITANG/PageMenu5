@@ -172,6 +172,7 @@ extension CAPSPageMenu : UIScrollViewDelegate {
     }
     
     @objc func scrollViewDidEndTapScrollingAnimation() {
+       
         // Call didMoveToPage delegate function
         let currentController = controllerArray[currentPageIndex]
         delegate?.didMoveToPage?(currentController, index: currentPageIndex)
